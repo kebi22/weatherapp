@@ -42,7 +42,7 @@ function WeatherMan() {
       </form>
       {temperature && description &&
         <div>
-          <p>The temperature in {location} is {temperature} degrees Celsius.</p>
+          <p>The temperature in {location} is {temperature*0.1} degrees Celsius.</p>
           <p>The weather is currently {description}.</p>
         </div>
       }
