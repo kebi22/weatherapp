@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('./weather.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  .ww{
+    text-align: center;
+    font-size: 40px;
+    font-stretch: expanded;
+    font-style: oblique;
+    color: greenyellow;
+  }
+  .container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    place-items: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+  }
+  
+  label {
+    margin: 0.5rem;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  
+  input[type="text"] {
+    padding: 1rem;
+    width: 300px;
+    border: 8px solid #ccc;
+    border-radius:8rem;
+  }
+  
+  button[type="submit"] {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #f3c221;
+    color: #fff;
+    font-size: 30px;
+    border: none;
+    border-radius: 0.25rem;
+    width: 300px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #79a10d;
+  }
+  
+  p {
+    margin: 1rem 0;
+    text-align: center;
+    color: rgb(22, 22, 21);
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .error {
+    color: rgb(183, 0, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+  
+  }
